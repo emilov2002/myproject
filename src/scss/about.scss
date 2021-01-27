@@ -1,0 +1,55 @@
+.about {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  height: 350px;
+  background: url("../img/about/about.png") center/cover no-repeat;
+
+  &-box {
+    justify-content: space-around;
+    display: flex;
+    height: 350px;
+    align-items: center;
+
+
+    &__figures {
+      align-items: center;
+      text-align: center;
+      width: 180px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      text-transform: uppercase;
+      color: $golg;
+    }
+
+    &-text {
+      width: 400px;
+      align-items: center;
+
+      &__stars {
+        display: flex;
+        margin-bottom: 19px;
+      }
+
+      &__img {
+        width: 26px;
+        height: 24px;
+        margin-right: 19px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      &__text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 150%;
+        color: white;
+      }
+    }
+  }
+
+}

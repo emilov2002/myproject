@@ -1,0 +1,46 @@
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+@import "../libs/owl/css/owl.carousel.min.css";
+@import "../libs/owl/css/owl.theme.default.min.css";
+@import "../fonts/Open/OpenSansCondensed/stylesheet.css";
+@import "../libs/fancy/jquery.fancybox.min.css";
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  background: #333333;
+}
+
+a{
+  text-decoration: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  scroll-behavior: smooth;
+
+}
+@media (max-width: 1200px) {
+  .container{
+    max-width: 940px;
+  }
+
+}
+@media (max-width: 992px) {
+  .container{
+    max-width: 940px;
+  }
+}
+@import "mixin";
+@import "header";
+@import "home";
+@import "services";
+@import "about";
+@import "partners";
+@import "staging";
+@import "footer";
+@import "media";

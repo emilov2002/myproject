@@ -1,0 +1,145 @@
+.header {
+  padding-top: 30px;
+  font-size: 20px;
+  position: absolute;
+  width: 90%;
+  &-box{
+    width: 110px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    &__tel {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: right;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #FFFFFF;
+      border-bottom: 2px solid #D1A954;
+      &:hover{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .header-info {
+    text-align: center;
+    width: 100%;
+
+    &__link {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-decoration: none;
+      margin-right: 25px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+    }
+
+
+
+
+  }
+
+
+  .menu {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    background: rgba(51, 51, 51, 0.75);
+    width: 80px;
+    height: 900px;
+    opacity: 0.8;
+    justify-content: left;
+    padding-top: 300px;
+    z-index: 2;
+
+    &-i {
+      display: block;
+      line-height: 25px;
+      text-align: center;
+
+
+      &__text {
+        display: inline-block;
+        vertical-align: top;
+        transform: translate(13%, 100%) rotate(-90deg);
+        transform-origin: 0 0;
+        white-space: nowrap;
+        text-align: center;
+        color: #ffeff2;
+      }
+
+      &__link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #C4C4C4;
+
+      }
+
+      &__line {
+        width: 50px;
+        height: 1px;
+        background: #999999;
+        margin-bottom: 60px;
+        margin-top: 60px;
+        transform: translate(17px, 100%) rotate(-90deg);
+      }
+
+
+     &__links{
+       text-decoration: none;
+       margin-bottom: 10px;
+       display: block;
+       font-size: 26px;
+       .fa-facebook{
+         color: white;
+         text-decoration: none;
+         &:hover {
+           color: blue;
+         }
+       }
+       .fa-instagram{
+         color: white;
+
+         &:hover {
+           color: #ff284e;
+         }
+
+       }
+       .fa-vk{
+         color: white;
+         &:hover {
+           color: blue;
+         }
+
+       }
+       .fa-youtube{
+         color: white;
+         &:hover {
+           color: red;
+         }
+
+       }
+     }
+    }
+  }
+
+
+}

@@ -1,0 +1,42 @@
+.header {
+  padding-top: 51px;
+  position: absolute;
+  justify-content: space-between;
+}
+.header .header-info {
+  display: flex;
+  margin: 0 auto;
+}
+.header .header-info__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header .header-info__tel {
+  display: block;
+}
+.header .header-inf {
+  width: 150px;
+  height: 900px;
+}
+.header .header-inf__text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  transform: rotate(-90deg);
+}
+.header .header-inf__images {
+  width: 15px;
+  height: 26px;
+  left: 69px;
+  top: 841px;
+}

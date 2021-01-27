@@ -1,0 +1,57 @@
+@mixin Btn($width, $height, $fz){
+  width: $width;
+  height: $height;
+  background: #D1A954;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: $fz;
+  outline: none;
+  cursor: pointer;
+}
+@mixin customSliderBtn{
+  width: 43px;
+  height: 35px;
+  position: absolute;
+  object-fit: cover;
+  transform: translateY(15%);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+@mixin burgerLine {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #f1f1f1;
+  transition: 0.5s;
+
+
+}
+$golg:#D1A954;
+.upBtn{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 100%;
+  max-width: 100px;
+  height: 100%;
+  max-height: 100px;
+  display: none;
+  z-index: 2;
+  img{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+
+
+
+  }
+}
